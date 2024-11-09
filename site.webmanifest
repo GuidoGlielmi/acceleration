@@ -1,0 +1,7 @@
+{
+  "name": "Acceleration",
+  "short_name": "Acceleration",
+  "theme_color": "#0e0505",
+  "background_color": "#0e0505",
+  "display": "standalone"
+}

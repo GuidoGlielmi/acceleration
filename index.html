@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      p {
+        font-size: min(5vw, 70px);
+      }
+      body > div {
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>acceleration</title>
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <body>
+    <p>Waiting for movement...</p>
+    <p>Latitude</p>
+    <p>Longitude</p>
+    <p>Distance traveled</p>
+    <div>
+      <div>
+        <input type="checkbox" id="instVel" />
+        <label for="instVel">Enable instantaneous velocity</label>
+      </div>
+      <button>Restart</button>
+    </div>
+    <p></p>
+  </body>
+  <script src="acceleration.js"></script>
+</html>
